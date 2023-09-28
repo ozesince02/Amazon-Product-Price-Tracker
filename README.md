@@ -4,17 +4,17 @@ This Python script allows you to track the price of a product on Amazon and send
 
 ### Features
 
-*Web scrapes the Amazon product page for the current price.
-*Sends an email alert if the price is below the target price.
-*Easy to configure with your own email and target price.
-*Uses popular libraries such as BeautifulSoup and requests.
+* Web scrapes the Amazon product page for the current price.
+* Sends an email alert if the price is below the target price.
+* Easy to configure with your own email and target price.
+* Uses popular libraries such as BeautifulSoup and requests.
 
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-*Python 3.x installed on your system.
-*Required Python packages installed. You can install them using 'pip':
+* Python 3.x installed on your system.
+* Required Python packages installed. You can install them using 'pip':
 
 ```
     pip install requests
@@ -31,10 +31,10 @@ git clone https://github.com/yourusername/amazon-price-tracker.git
 2. Open the 'amazon_price_tracker.py' file in a text editor.
 3.Replace the following variables with your own information:
 
-    *'MY_EMAIL': Your Gmail email address.
-    *'MY_PASSWORD': Your Gmail email password.
-    *'target_price': The target price at which you want to receive a notification.
-    *'URL': The URL of the Amazon product you want to track. Make sure it's the correct product page URL.
+    * 'MY_EMAIL': Your Gmail email address.
+    * 'MY_PASSWORD': Your Gmail email password.
+    * 'target_price': The target price at which you want to receive a notification.
+    * 'URL': The URL of the Amazon product you want to track. Make sure it's the correct product page URL.
 
 4. Save your changes.
 
@@ -42,8 +42,8 @@ git clone https://github.com/yourusername/amazon-price-tracker.git
 ```
     python amazon_price_tracker.py
 ```
-  The script will scrape the Amazon product page, check the price against your target price, and send you an email alert if the price is lower than or equal to the target price.
-  The script uses Gmail for sending email notifications. If you haven't already, you may need to enable "Less secure apps" in your Gmail settings to allow the script to send emails using your Gmail account.
+The script will scrape the Amazon product page, check the price against your target price, and send you an email alert if the price is lower than or equal to the target price.
+The script uses Gmail for sending email notifications. If you haven't already, you may need to enable "Less secure apps" in your Gmail settings to allow the script to send emails using your Gmail account.
 
 ### License
 
@@ -55,5 +55,5 @@ This script is intended for educational and personal use only. Use it responsibl
 
 ### Acknowledgments
 
-*This script was created with the help of Python, requests, BeautifulSoup, and smtplib.
-*Inspired by online tutorials and resources on web scraping and email notifications in Python.
+* This script was created with the help of Python, requests, BeautifulSoup, and smtplib.
+* Inspired by online tutorials and resources on web scraping and email notifications in Python.
