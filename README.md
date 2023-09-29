@@ -26,7 +26,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone this repository to your local machine:
 ```
-git clone https://github.com/yourusername/amazon-price-tracker.git
+git clone https://github.com/ozesince02/Amazon-Product-Price-Tracker.git
 ```
 2. Open the 'amazon_price_tracker.py' file in a text editor.
 3.Replace the following variables with your own information:
